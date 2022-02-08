@@ -13,7 +13,7 @@ public class Persona {
     
     String nombre;
     String apellidos;
-    String contacto;
+    String email;
 
     public Persona(String nombre, String apellidos, String contacto) {
         this.nombre = nombre;
