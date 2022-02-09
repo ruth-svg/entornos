@@ -5,7 +5,7 @@
 package pojos;
 
 /**
- *
+ * @version 1.0
  * @author ruth
  */
 public class Alumno {
@@ -36,13 +36,20 @@ public class Alumno {
         this.apellidos = apellidos;
     }
 
-    public String getContacto() {
-        return contacto;
+    @Override
+    public String toString() {
+        return "Alumno{" + "nombre=" + nombre + ", apellidos=" + apellidos + ", contacto=" + contacto + '}';
     }
+    
+    
 
-    public void setContacto(String contacto) {
-        this.contacto = contacto;
-    }
+
+    
+    
+    
+    
+    
+  
     
     
 }
